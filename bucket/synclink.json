@@ -1,15 +1,18 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Manages configuration backups using symbolic links to a sync directory.",
     "homepage": "https://github.com/UkiyoDevs/SyncLink",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UkiyoDevs/SyncLink/releases/download/1.0.0/synclink-1.0.0-windows-amd64.zip",
-            "hash": "3168f5641401511ad86a533fc07556cf02f4f7eadf5cdd7652164f33a1aa64a8"
+            "url": "https://github.com/UkiyoDevs/SyncLink/releases/download/1.0.1/synclink-1.0.1-windows-amd64.zip",
+            "hash": "263c0bcabc95c203b6eea48b17460186a451d7ec9e92cb2a8554622cf7db7138"
         }
     },
     "persist": "config.json",
+    "bin": [
+        "synclink.exe"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
