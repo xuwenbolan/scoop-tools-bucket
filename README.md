@@ -1,15 +1,9 @@
-# scoop-tools-bucket
-
-📦 A custom [Scoop](https://scoop.sh/) bucket for shared apps between team members.
-
-This bucket contains custom manifest files for software not available in the main Scoop buckets, including internal tools, CLI utilities, or self-developed apps.
-
 ## 📥 How to Use
 
 To use this bucket with Scoop:
 
 ```powershell
-scoop bucket add shared https://github.com/your-username/scoop-shared-bucket
+scoop bucket add scoop-tools https://github.com/xuwenbolan/scoop-tools-bucket
 ```
 
 Then you can install apps like this:
@@ -21,7 +15,7 @@ scoop install app-name
 For example:
 
 ```powershell
-scoop install lightning
+scoop install synclink
 ```
 
 ## 📂 Manifest Format
@@ -62,13 +56,4 @@ You can validate your manifest file using:
 ```powershell
 scoop install scoop-format
 scoop-format validate bucket/your-app.json
-```
-
-## 📃 License
-
-This repository is shared among collaborators. Each contributor is responsible for the legality and maintenance of their own manifests.
-
----
-
-Maintained with ❤️ by the community.
 ```
